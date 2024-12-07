@@ -1,0 +1,23 @@
+Machine: {w | w has the same number of 0's and 1's} Deterministic
+Initial string: 0011
+Max depth: 20
+String accepted in 15 transitions
+Accepting path:
+, q0, 0, 011
+_, q1, 0, 11
+_0, q1, 1, 1
+_, q3, 0, x1
+, q3, _, 0x1
+_, q4, 0, x1
+_x, q1, x, 1
+_xx, q1, 1, 
+_x, q3, x, x
+_, q3, x, xx
+, q3, _, xxx
+_, q4, x, xx
+_x, q4, x, x
+_xx, q4, x, 
+_xxx, q4, _, 
+_xxx_, qacc, _, 
+Number of configurations explored: 16
+Degree of nondeterminism: 1.00

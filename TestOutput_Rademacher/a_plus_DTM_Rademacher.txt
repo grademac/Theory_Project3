@@ -1,0 +1,14 @@
+Machine: a plus DTM
+Initial string: aaaaa
+Max depth: 7
+String accepted in 6 transitions
+Accepting path:
+, q1, a, aaaa
+a, q1, a, aaa
+aa, q1, a, aa
+aaa, q1, a, a
+aaaa, q1, a, 
+aaaaa, q1, _, 
+aaaaaa, q2, _, 
+Number of configurations explored: 7
+Degree of nondeterminism: 1.00

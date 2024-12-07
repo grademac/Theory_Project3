@@ -1,0 +1,16 @@
+Machine: a*b*c* Nondeterministic
+Initial string: aaabccc
+Max depth: 20
+String accepted in 8 transitions
+Accepting path:
+, q0, a, aabccc
+a, q0, a, abccc
+aa, q0, a, bccc
+aaa, q0, b, ccc
+aaab, q2, c, cc
+aaabc, q2, c, c
+aaabcc, q2, c, 
+aaabccc, q3, _, 
+aaabccc_, qacc, _, 
+Number of configurations explored: 10
+Degree of nondeterminism: 2.30
